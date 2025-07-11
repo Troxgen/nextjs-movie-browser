@@ -1,79 +1,38 @@
-
 # 🎬 Next.js Film Hub
 
-OMDb API ile güçlendirilmiş, şık ve kullanışlı bir film arama, listeleme ve detay görüntüleme uygulaması.
+A modern, responsive and fast movie browser built with **Next.js 13**, powered by the **OMDb API**.  
+Search movies, view posters, explore details like plot, rating, genre, and more — all in a sleek UI.
 
 ---
 
-## 🚀 Teknolojiler
+## 🌍 Available Languages
 
-- Next.js 13 (App Router)  
-- TypeScript  
-- Tailwind CSS  
-- OMDb API (Open Movie Database)  
+> Choose your preferred language below:
 
----
-
-## ✨ Özellikler
-
-- 🔍 Hızlı ve kolay film arama (varsayılan: **batman**)  
-- 🎞 Film listesi: afişler, isimler ve çıkış yılları ile  
-- 📽 Detay sayfası: film özeti, yönetmen, tür, IMDb puanı ve süresi  
-- 📱 Tamamen responsive ve modern tasarım  
-- ⚡ Sadece frontend, hızlı API entegrasyonu  
+- 🇹🇷 [Türkçe README](./docs/README.tr.md) – Türkçe dökümantasyon
+- 🇬🇧 [English README](./docs/README.en.md) – Full English documentation
 
 ---
 
-## 🛠 Kurulum ve Çalıştırma
+## 📦 Quick Start
 
-1. Repo’yu klonla:
+1. Clone the repo and install dependencies
+2. Add your OMDb API key to `.env.local`
+3. Run `npm run dev` and start searching movies
 
-```bash
-git clone https://github.com/Troxgen/nextjs-movie-browser.git
-cd nextjs-movie-browser
-````
-
-2. Gerekli paketleri yükle:
-
-```bash
-npm install
-# veya
-yarn
-```
-
-3. Proje kök dizinine `.env.local` dosyası oluştur ve OMDb API anahtarını ekle:
-
-```
-OMDB_API_KEY=apikeyinizburaya
-```
-
-4. Geliştirme sunucusunu başlat:
-
-```bash
-npm run dev
-# veya
-yarn dev
-```
-
-5. Tarayıcıda aç: [http://localhost:3000](http://localhost:3000)
+> Full setup instructions available in both language-specific README files.
 
 ---
 
-## 🎯 Kullanım
+## 📸 Screenshots
 
-* Arama kutusuna istediğiniz film adını yazın.
-* Arama sonuçları anında listelenecek.
-* Bir filme tıkladığınızda detay sayfasına yönlendirilirsiniz.
-* Detay sayfasında filmin tüm önemli bilgilerini görebilirsiniz.
+![Search Example](./docs/s1.png)
+![Movie Details](./docs/s2.png)
 
 ---
 
-## ⚠️ Notlar
+## 📬 Feedback & Contributions
 
-* OMDb API ücretsiz sürümünde günlük kota bulunuyor, dikkat!
-* Bu proje eğitim ve demo amaçlı geliştirilmiştir.
-* Geri bildirim ve katkı her zaman hoş karşılanır!
-
----
-
+Open issues, suggestions or pull requests are always welcome.  
+Let’s build something better together.
 
